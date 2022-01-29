@@ -3,7 +3,7 @@
   <groupId>SeleniumCursoEnero</groupId>
   <artifactId>SeleniumCursoEnero</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
+   <dependencies>
 	<!-- ORG JSON -->
 		<dependency>
 			<groupId>org.json</groupId>
