@@ -38,6 +38,7 @@ public class TipoDatos {
 				int numero = 1;
 				String nombre = "Ricardo";
 				System.out.println(nombre + numero);
+				
 
 	}
 
