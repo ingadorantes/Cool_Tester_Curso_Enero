@@ -3,8 +3,24 @@
   <groupId>SeleniumCursoEnero</groupId>
   <artifactId>SeleniumCursoEnero</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-   <dependencies>
-	<!-- ORG JSON -->
+  
+  <dependencies>
+		
+		<!-- Selenium -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		
+		<!-- Chrome driver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		
+		<!-- ORG JSON -->
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
@@ -48,5 +64,5 @@
 		</dependency>
 
 	</dependencies>
-
+  
 </project>
