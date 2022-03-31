@@ -55,6 +55,13 @@
 			<version>6.14.3</version>
 			<scope>compile</scope>
 		</dependency>
+
+         <!-- Execute chromedriver verionador -->
+        <dependency>
+           <groupId>io.github.bonigarcia</groupId>
+           <artifactId>webdrivermanager</artifactId>
+           <version>5.1.0</version>         
+        </dependency>
 		
 		<!-- Extended Report dependency -->
 		<dependency>

@@ -46,6 +46,27 @@ public class main {
 	System.out.println("adolecente: "+ persona1.isTeen());
 	persona1.setLastName("smith");
 	System.out.println("Nombre completo: "+persona1.getFullName());
+	System.out.println(" ");
+	
+	SimpleCalculator calculadora =new SimpleCalculator();
+	calculadora.setFirstNumber(5.0);
+	calculadora.setSecondNumber(4);
+	System.out.println("add=  " + calculadora.getAdditionResult());
+	System.out.println("Subtract= "+calculadora.getSubtractionResult());
+	calculadora.setFirstNumber(5.25);
+	calculadora.setSecondNumber(0);
+	System.out.println("multiplicar= "+calculadora.getMultiplicationResult());
+	System.out.println("divide= "+calculadora.getDivisionResult());
+	System.out.println(" ");
+	
+	
+	System.out.println(SimpleCalculator.hasTeen(9, 99, 19));
+	System.out.println(SimpleCalculator.hasTeen(23, 15, 42));
+	System.out.println(SimpleCalculator.hasTeen(22, 23, 34));
+	System.out.println(SimpleCalculator.isTeen(9));
+	System.out.println(SimpleCalculator.isTeen(13));
+	
+	
 	}
 
 }
